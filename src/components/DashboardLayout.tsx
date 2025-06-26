@@ -16,6 +16,7 @@ interface DashboardLayoutProps {
   title?: string;
 }
 
+
 const DashboardLayout = ({ children, title = "Dashboard" }: DashboardLayoutProps) => {
   return (
     <SidebarProvider>
